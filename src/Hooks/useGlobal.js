@@ -11,6 +11,7 @@ const useGlobal = () => {
   const getPayment = (body) => {
     axios.post(`${process.env.REACT_APP_SERVER_URL}/api/bkash/createPayment`, { ...body, totalPrice }, 
     {
+      //for the cors issue
       headers: {
         "Access-Control-Allow-Origin": "*",
         'content-type': 'application/json'
