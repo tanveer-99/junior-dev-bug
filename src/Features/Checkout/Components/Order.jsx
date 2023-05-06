@@ -18,7 +18,7 @@ export default function Order() {
     return (
         <div>
             <div className="border border-border border-opacity-5 rounded-[0.5rem] py-4 px-5">
-                <h1 className="text-textHeader text-xl pb-4 border-b">Your order</h1>
+                <h1 className="text-textHeader text-xl pb-4 border-b">Your order.</h1>
                 <table className="w-full">
                     <tbody>
                         <tr className="border-b">
